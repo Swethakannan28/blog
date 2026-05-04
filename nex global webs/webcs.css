@@ -1,0 +1,86 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: aliceblue;
+    text-transform: uppercase;
+}
+.logo{
+    font-style: bold;
+}
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.loginbtn{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 90px;
+    gap: 60px;
+    background-color: black;
+}
+.rightbox h1{
+    color: aliceblue;
+    font-style: bold;
+    font-size: 40px;
+    border-left:5px solid #2da9ff;
+    padding-left:18px;
+}
+.rightbox p{
+    color: gray;
+    font-size: 20px;
+}
+.butboxri{
+    text-transform: uppercase;
+    border:2px solid white;
+    background-color: black;
+    color: aliceblue;
+    padding: auto;
+    width: 200px;
+    height: 30px;
+}
+.leftbox{
+    width:520px;
+    background:#f4f4f4;
+    padding:40px 35px;
+    border-top:8px solid #2da9ff;
+}
+.leftbox h2{
+    font-size:20px;
+    color: black;
+    display: block;
+    margin-bottom:30px;
+}
+.leftbox label{
+    display:block;
+    font-size:18px;
+    margin-top: 18px;
+    margin-bottom:5px;
+    color:black;
+    font-style:bold;
+    text-transform: uppercase;
+}
+.leftbox input{
+    width:90%;
+    padding:10px;
+    margin-bottom:5px;
+    border:1px solid #d0d0d0;
+    font-size:16px;
+}
+.leftbox button{
+    width: 90%;
+margin-top: 10px;
+height: 40px;
+color: aliceblue;
+background-color: #2da9ff;
+}

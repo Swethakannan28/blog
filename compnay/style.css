@@ -1,0 +1,148 @@
+.mynav{
+background: rgba(0,0,0,0.5);
+height: 80px;
+}
+.homepage1{
+    background-image:url(2i5efj4j7cefa4e-3457-500x500.webp) ;
+    background-size: cover;
+    
+}
+.mynav .navbar-brand{
+color:white;
+font-size: 40px;
+}
+.mynav .nav-link{
+color:white;
+}
+.mynav .nav-link:hover{
+    color: blue;
+    cursor: pointer;
+}
+.welcome{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:100vh;
+    color: white;
+    text-transform: uppercase;
+}
+.create{
+    font-size: 25px;
+}
+.explore{
+    color: white;
+}
+.about{
+    
+
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      ),
+    url(company-employees-chatting-business-meeting-sitting-workplace-modern-office-group-people-making-great-decisions-417138051.webp);
+    background-size: cover;
+}
+.white{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+.card1,.card2{
+  background:
+      linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      );
+   height: 580px;
+   width: 400px;
+   margin-top: 50px;
+}
+.card1 img{
+    width: 100%;
+    background-size: cover;
+    padding: 10px;
+    align-items: center;
+}
+.text1{
+    color: aliceblue;
+}
+
+.text2{
+color: aliceblue;
+
+}
+.card2 img{
+    width: 65%;
+    background-size: cover;
+    padding: 10px;
+    align-items: center;
+    float: left;
+   
+}
+.explorehome{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.service{
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+      ),
+      url(world.avif);
+      background-size: cover;
+}
+.what{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+.what-1{
+    text-align: center;
+    color: white;
+    font-weight:300;
+    font-size: medium;
+}
+.ideas{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+.ideas img{
+    width: 70px;
+    height: 70px;
+}
+.servicebox{
+    color:white;
+    gap:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 40px;
+}
+.headse{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px;
+}
+.gallery{
+    background-image:
+      linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),url(mnc.jpg);
+      background-size: cover;
+}

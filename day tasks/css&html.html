@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="css-1.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Order summary</h2>
+        <table>
+            <tr><th>Item name</th>
+            <th>qty</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>Cotton t-Shirt(blue)</td>
+        <td>2</td>
+        <td>$800</td>
+    </tr>
+    <tr>
+        <td>Denim jeans(black)</td>
+        <td>1</td>
+        <td>$1,200</td>
+    </tr>
+    <tr class="subtotal">
+        <td colspan="2">subtotal</td>
+        <td>$2,000</td>
+    </tr>
+        </table>
+
+    <div class="section">
+        <form>
+            <fieldset>
+                <legend class="info">Shipping Information</legend>
+                <label>Full name:</label><br>
+                <input type="text" placeholder="Your name"><br>
+                <label>Email Address:</label><br>
+                <input type="email" placeholder="email@example.com"><br>
+                <label>City:</label><br>
+                <select name="City">
+                    <option>chennai</option>
+                    <option>trichy</option>
+                    <option>coimbature</option>
+                </select>
+            </fieldset>
+        </form>
+    </div>
+    <div class="pay">
+        <form>
+            <fieldset>
+                <legend class="pa">Payment method</legend>
+                <input type="radio" name="choice">Credit / Debit card<br>
+                <input type="radio" name="choice">UPI(gpay / phonepay)<br>
+            </fieldset>
+        </form>
+    </div>
+    <div class="grey">
+        <p>cart total <span>$2,000</span></p>
+        <p>GST(18%) <span>$360</span></p>
+        <p>Shipping: <span>free</span></p>
+        <hr>
+        <p class="grand">grand total: <span>$2,360</span></p>
+        <button>confirm&pay</button>
+    </div>
+    </div>
+</body>
+</html>
